@@ -184,7 +184,7 @@ body {
 /* line 148, style.less */
 #box1 .hai9 {
   top: 13;
-  z-index: 99;
+  z-index: 999;
   position: fixed;
   width: 100%;
   height: 60px;
