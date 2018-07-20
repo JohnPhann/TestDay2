@@ -707,50 +707,297 @@ body {
 /* line 605, style.less */
 #box4 {
   width: 100%;
+  float: left;
 }
 /* line 608, style.less */
+#box4 #nghia {
+  background: blue;
+  height: 900px;
+}
+/* line 611, style.less */
+#box4 #nghia #n1 {
+  float: left;
+  height: 900px;
+  background: white;
+}
+/* line 617, style.less */
+#box4 #nghia #n1 .textnghia h2 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  font-family: "Lora";
+  font-size: 25px;
+}
+/* line 625, style.less */
+#box4 #nghia #n1 .media {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  float: left;
+}
+/* line 630, style.less */
+#box4 #nghia #n1 .media .contennghia2 {
+  background: none;
+  line-height: 1;
+  text-align: center;
+  float: left;
+  width: 35px;
+  margin-right: 20px;
+  padding-bottom: 13px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom: 2px solid blue;
+}
+/* line 643, style.less */
+#box4 #nghia #n1 .media .contennghia2 span {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+/* line 649, style.less */
+#box4 #nghia #n1 .media .contennghia2 #nghia1 {
+  font-size: 15px;
+}
+/* line 653, style.less */
+#box4 #nghia #n1 .media .contenthinh {
+  margin-right: 10px;
+  position: relative;
+}
+/* line 656, style.less */
+#box4 #nghia #n1 .media .contenthinh #n9 {
+  position: absolute;
+  top: 131px;
+  left: 143px;
+  background: black;
+  color: white;
+}
+/* line 664, style.less */
+#box4 #nghia #n1 .media .media-body {
+  float: left;
+  width: 100%;
+  height: 200px;
+  background: none;
+}
+/* line 669, style.less */
+#box4 #nghia #n1 .media .media-body a {
+  float: left;
+  color: #eb639c;
+  text-decoration: none				;
+  font-size: 30px;
+}
+/* line 676, style.less */
+#box4 #nghia #n1 .media .media-body .nghia2 {
+  background: none;
+  width: 30%;
+  margin-top: 40px;
+}
+/* line 682, style.less */
+#box4 #nghia #n1 .media .media-body .nghia2 .fas {
+  color: gray;
+  padding-right: 15px;
+}
+/* line 686, style.less */
+#box4 #nghia #n1 .media .media-body .nghia2 .far {
+  color: gray;
+}
+/* line 689, style.less */
+#box4 #nghia #n1 .media .media-body .nghia2 .nghia3 {
+  width: 550px;
+  height: 100px;
+  background: none;
+}
+/* line 693, style.less */
+#box4 #nghia #n1 .media .media-body .nghia2 .nghia3 p {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 20px;
+  color: gray;
+}
+/* line 713, style.less */
+#box4 #nghia #n1 .n9 {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 722, style.less */
+#box4 #nghia #n2 {
+  float: left;
+  height: 900px;
+  background: white;
+}
+/* line 727, style.less */
+#box4 #nghia #n2 .textnghia h2 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  font-family: "Lora";
+  font-size: 25px;
+}
+/* line 737, style.less */
+#box4 #nghia .videonghia {
+  background: blue;
+  width: 100%;
+  height: 850px;
+  float: left;
+  overflow: hidden;
+}
+/* line 743, style.less */
+#box4 #nghia .videonghia .video {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background: white;
+}
+/* line 749, style.less */
+#box4 #nghia .videonghia .h3nghia {
+  width: 100%;
+  height: 50px;
+  background: white;
+  float: left;
+}
+/* line 754, style.less */
+#box4 #nghia .videonghia .h3nghia h3 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 25px;
+  font-family: "Lora";
+}
+/* line 762, style.less */
+#box4 #nghia .videonghia .pnghia {
+  width: 100%;
+  height: 100px;
+  background: white;
+}
+/* line 766, style.less */
+#box4 #nghia .videonghia .pnghia p {
+  margin: 25px;
+}
+/* line 771, style.less */
+#box4 #nghia .videonghia .pngnghia {
+  width: 100%;
+  height: 180px;
+  background: white;
+  float: left;
+}
+/* line 776, style.less */
+#box4 #nghia .videonghia .pngnghia img {
+  border-radius: 2%;
+}
+/* line 780, style.less */
+#box4 #nghia .videonghia .slidernghia {
+  width: 100%;
+  height: 350px;
+  float: left;
+  background: white;
+}
+/* line 785, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+/* line 789, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls .ct1 {
+  opacity: 1;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+/* line 797, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls .ct1 #pct1 {
+  padding-left: 30px;
+  border-color: #eeeeee;
+}
+/* line 801, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls .ct1 .hinhct {
+  margin: 0 auto;
+  width: 30%;
+  display: block;
+}
+/* line 806, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls .ct1 .hinhct img {
+  float: right;
+}
+/* line 809, style.less */
+#box4 #nghia .videonghia .slidernghia #carouselExampleControls .ct1 .hinhct p {
+  float: left;
+  color: blue;
+}
+/* line 816, style.less */
+#box4 #nghia .videonghia .slidernghia h3 {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  font-family: "Lora";
+  font-size: 25px;
+  padding-left: 20px;
+}
+/* line 825, style.less */
+#box4 #nghia .videonghia .slidernghia #prev {
+  height: 30px;
+  width: 10%;
+  position: absolute;
+  top: -38px;
+  left: 340px;
+  background: gray;
+}
+/* line 833, style.less */
+#box4 #nghia .videonghia .slidernghia #next {
+  height: 30px;
+  width: 10%;
+  position: absolute;
+  top: -38px;
+  left: 385px;
+  background: gray;
+}
+/* line 847, style.less */
 #box5 {
   width: 100%;
 }
-/* line 611, style.less */
+/* line 850, style.less */
 #box6 {
   width: 100%;
 }
-/* line 614, style.less */
+/* line 853, style.less */
 #box7 {
   width: 100%;
   float: left;
   background: #202020;
 }
-/* line 618, style.less */
+/* line 857, style.less */
 #box7 .box-icon-t {
   width: 100%;
   padding-top: 20px;
   font-size: 9pt;
 }
-/* line 623, style.less */
+/* line 862, style.less */
 #box7 .box-icon-t a img {
   width: 15px;
   height: 15px;
   margin: 8px;
 }
-/* line 630, style.less */
+/* line 869, style.less */
 #box7 .box-nav-t {
   width: 100%;
   color: #6b6d6d;
   padding-top: 5px;
 }
-/* line 634, style.less */
+/* line 873, style.less */
 #box7 .box-nav-t a {
   padding: 0px 15px ;
   color: #6b6d6d;
 }
-/* line 637, style.less */
+/* line 876, style.less */
 #box7 .box-nav-t a:hover {
   text-decoration: none;
   color: #fff;
 }
-/* line 643, style.less */
+/* line 882, style.less */
 #box7 .copyright-right {
   width: 100%;
   height: 50px;
