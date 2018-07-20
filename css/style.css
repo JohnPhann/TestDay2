@@ -955,24 +955,29 @@ body {
   left: 385px;
   background: gray;
 }
-/* line 851, style.less */
+/* line 850, style.less */
+#box5 {
+  width: 100%;
+  float: left;
+}
+/* line 853, style.less */
 #box5 .bgimg {
   background-image: url(../img/bg-imgd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 855, style.less */
+/* line 857, style.less */
 #box5 .bgimg .bg {
   background: linear-gradient(rgba(113, 205, 242, 0.6), rgba(239, 85, 151, 0.7));
   height: 842px;
   padding: 10%;
 }
-/* line 859, style.less */
+/* line 861, style.less */
 #box5 .bgimg .bg .textcenter {
   margin: 0 auto;
   text-align: center;
 }
-/* line 862, style.less */
+/* line 864, style.less */
 #box5 .bgimg .bg .textcenter h1 {
   font-size: 70px;
   margin-bottom: 40px;
@@ -980,161 +985,161 @@ body {
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 768px) {
-  /* line 867, style.less */
+  /* line 869, style.less */
   #box5 .bgimg .bg .textcenter h1 {
     font-size: 45px;
     margin-top: 50px;
   }
 }
-/* line 872, style.less */
+/* line 874, style.less */
 #box5 .bgimg .bg .textcenter p {
   font-size: 20px;
   margin-bottom: 10px;
   color: white;
   font-family: "Playfair Display";
 }
-/* line 881, style.less */
+/* line 883, style.less */
 #box5 .meetout {
   padding: 8% 15%;
 }
-/* line 883, style.less */
+/* line 885, style.less */
 #box5 .meetout .meetbox {
   background: white;
   text-align: center;
 }
-/* line 886, style.less */
+/* line 888, style.less */
 #box5 .meetout .meetbox h2 {
   font-size: 40px;
   margin-bottom: 10%;
   font-family: "Playfair Display";
 }
-/* line 891, style.less */
+/* line 893, style.less */
 #box5 .meetout .meetbox .meet {
   float: left;
   font-family: "Playfair Display";
 }
-/* line 894, style.less */
+/* line 896, style.less */
 #box5 .meetout .meetbox .meet:hover {
   background: #e5e5e5;
   transition: all 2s;
 }
-/* line 898, style.less */
+/* line 900, style.less */
 #box5 .meetout .meetbox .meet .imgmeet {
   height: 134px;
 }
-/* line 900, style.less */
+/* line 902, style.less */
 #box5 .meetout .meetbox .meet .imgmeet img {
   width: 134px;
   height: 134px;
   border-radius: 50%;
   border: solid 2px #f273ac;
 }
-/* line 901, style.less */
+/* line 903, style.less */
 #box5 .meetout .meetbox .meet .imgmeet img:hover {
   transform: scale(1.5);
   transition: all 1s;
 }
 @media screen and (max-width: 780px) {
-  /* line 909, style.less */
+  /* line 911, style.less */
   #box5 .meetout .meetbox .meet .imgmeet img {
     width: 100px;
     height: 100px;
   }
 }
-/* line 915, style.less */
+/* line 917, style.less */
 #box5 .meetout .meetbox .meet .meetname {
   margin-top: 20%;
   margin-bottom: 15%;
 }
-/* line 918, style.less */
+/* line 920, style.less */
 #box5 .meetout .meetbox .meet .meetname h6 {
   color: gray;
 }
-/* line 922, style.less */
+/* line 924, style.less */
 #box5 .meetout .meetbox .meet .meeticon {
   margin: 0 auto;
   margin-bottom: 10%;
 }
-/* line 925, style.less */
+/* line 927, style.less */
 #box5 .meetout .meetbox .meet .meeticon a {
   padding: 0px 2px;
   color: black;
   font-size: 15px;
 }
-/* line 931, style.less */
+/* line 933, style.less */
 #box5 .meetout .meetbox .meet button.btn-primary {
   margin: 0 auto;
   background: #f273ac;
   border: none;
 }
 @media screen and (max-width: 768px) {
-  /* line 940, style.less */
+  /* line 942, style.less */
   #box5 .meetout .meet {
     padding: 0;
   }
-  /* line 943, style.less */
+  /* line 945, style.less */
   #box5 .meetout .meet .imgmeet img {
     width: 100px;
     height: 100px;
   }
-  /* line 951, style.less */
+  /* line 953, style.less */
   #box5 .meetout .meeticon {
     padding-right: 20%;
   }
-  /* line 954, style.less */
+  /* line 956, style.less */
   #box5 .meetout .meeticon i.fab {
     display: none;
   }
-  /* line 957, style.less */
+  /* line 959, style.less */
   #box5 .meetout .meeticon i.fas {
     display: none;
   }
 }
 @media screen and (max-width: 424px) {
-  /* line 963, style.less */
+  /* line 965, style.less */
   #box5 .meetout .meet1 {
     display: none;
   }
 }
-/* line 969, style.less */
+/* line 971, style.less */
 #box6 {
   width: 100%;
 }
-/* line 972, style.less */
+/* line 974, style.less */
 #box7 {
   width: 100%;
   float: left;
   background: #202020;
 }
-/* line 976, style.less */
+/* line 978, style.less */
 #box7 .box-icon-t {
   width: 100%;
   padding-top: 20px;
   font-size: 9pt;
 }
-/* line 981, style.less */
+/* line 983, style.less */
 #box7 .box-icon-t a img {
   width: 15px;
   height: 15px;
   margin: 8px;
 }
-/* line 988, style.less */
+/* line 990, style.less */
 #box7 .box-nav-t {
   width: 100%;
   color: #6b6d6d;
   padding-top: 5px;
 }
-/* line 992, style.less */
+/* line 994, style.less */
 #box7 .box-nav-t a {
   padding: 0px 15px ;
   color: #6b6d6d;
 }
-/* line 995, style.less */
+/* line 997, style.less */
 #box7 .box-nav-t a:hover {
   text-decoration: none;
   color: #fff;
 }
-/* line 1001, style.less */
+/* line 1003, style.less */
 #box7 .copyright-right {
   width: 100%;
   height: 50px;
