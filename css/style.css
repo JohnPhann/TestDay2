@@ -1,33 +1,142 @@
-/* line 1, style.less */
 body {
   padding: 0;
   margin: 0;
 }
-/* line 5, style.less */
 #box1 {
   width: 100%;
 }
-/* line 9, style.less */
 #box2 {
   width: 100%;
 }
-/* line 12, style.less */
 #box3 {
   width: 100%;
 }
-/* line 15, style.less */
 #box4 {
   width: 100%;
 }
-/* line 18, style.less */
-#box5 {
-  width: 100%;
+#box5 .bgimg {
+  background-image: url(../img/bg-imgd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/* line 21, style.less */
+#box5 .bgimg .bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(113, 205, 242, 0.6)), to(rgba(239, 85, 151, 0.7)));
+  background: linear-gradient(rgba(113, 205, 242, 0.6), rgba(239, 85, 151, 0.7));
+  height: 842px;
+  padding: 10%;
+}
+#box5 .bgimg .bg .textcenter {
+  margin: 0 auto;
+  text-align: center;
+}
+#box5 .bgimg .bg .textcenter h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: "Playfair Display";
+}
+@media screen and (max-width: 768px) {
+  #box5 .bgimg .bg .textcenter h1 {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+}
+#box5 .bgimg .bg .textcenter p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Playfair Display";
+}
+#box5 .meetout {
+  padding: 8% 15%;
+}
+#box5 .meetout .meetbox {
+  background: white;
+  text-align: center;
+}
+#box5 .meetout .meetbox h2 {
+  font-size: 40px;
+  margin-bottom: 10%;
+  font-family: "Playfair Display";
+}
+#box5 .meetout .meetbox .meet {
+  float: left;
+  font-family: "Playfair Display";
+}
+#box5 .meetout .meetbox .meet:hover {
+  background: #e5e5e5;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+#box5 .meetout .meetbox .meet .imgmeet {
+  height: 134px;
+}
+#box5 .meetout .meetbox .meet .imgmeet img {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  border: solid 2px #f273ac;
+}
+#box5 .meetout .meetbox .meet .imgmeet img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+@media screen and (max-width: 780px) {
+  #box5 .meetout .meetbox .meet .imgmeet img {
+    width: 100px;
+    height: 100px;
+  }
+}
+#box5 .meetout .meetbox .meet .meetname {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+#box5 .meetout .meetbox .meet .meetname h6 {
+  color: gray;
+}
+#box5 .meetout .meetbox .meet .meeticon {
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+#box5 .meetout .meetbox .meet .meeticon a {
+  padding: 0px 2px;
+  color: black;
+  font-size: 15px;
+}
+#box5 .meetout .meetbox .meet button.btn-primary {
+  margin: 0 auto;
+  background: #f273ac;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  #box5 .meetout .meet {
+    padding: 0;
+  }
+  #box5 .meetout .meet .imgmeet img {
+    width: 100px;
+    height: 100px;
+  }
+  #box5 .meetout .meeticon {
+    padding-right: 20%;
+  }
+  #box5 .meetout .meeticon i.fab {
+    display: none;
+  }
+  #box5 .meetout .meeticon i.fas {
+    display: none;
+  }
+}
+@media screen and (max-width: 424px) {
+  #box5 .meetout .meet1 {
+    display: none;
+  }
+}
 #box6 {
   width: 100%;
 }
-/* line 24, style.less */
 #box7 {
   width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
