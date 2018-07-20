@@ -1,33 +1,194 @@
-/* line 1, style.less */
 body {
   padding: 0;
   margin: 0;
 }
-/* line 5, style.less */
 #box1 {
   width: 100%;
 }
-/* line 9, style.less */
 #box2 {
   width: 100%;
 }
-/* line 12, style.less */
 #box3 {
   width: 100%;
 }
-/* line 15, style.less */
 #box4 {
   width: 100%;
 }
-/* line 18, style.less */
 #box5 {
   width: 100%;
 }
-/* line 21, style.less */
 #box6 {
   width: 100%;
+  float: left;
 }
-/* line 24, style.less */
+#box6 .phong {
+  background: url(../img/bg1.jpg) top center;
+  width: 100%;
+  height: auto;
+  background: cover;
+  overflow: hidden;
+}
+#box6 .phong .pic {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong .pic h3.headerh3 {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+}
+#box6 .phong .pic .container {
+  float: left;
+  margin-left: 15%;
+}
+#box6 .phong .pic .container .p1 {
+  margin-top: 15px;
+  width: 100%;
+  height: 70px;
+}
+#box6 .phong .pic .container .p1 img {
+  width: 90px;
+  height: 70px;
+}
+#box6 .phong .pic .container .p2 {
+  margin-top: 20px;
+  width: 100%;
+  height: 70px;
+}
+#box6 .phong .pic .container .p2 img {
+  width: 90px;
+  height: 70px;
+}
+#box6 .phong .text {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong .text h3.headerh31 {
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+}
+#box6 .phong .text .phong2 {
+  width: 100%;
+  height: 250px;
+}
+#box6 .phong .text .phong2 .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#box6 .phong .text .phong2 .carousel-inner .t1 {
+  width: 60%;
+  margin-left: 20%;
+}
+#box6 .phong .text .phong2 .carousel-inner .t1 p {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+#box6 .phong .text .phong2 .carousel-control-prev {
+  width: 30px;
+  height: 30px;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+#box6 .phong .text .phong2 i.fab {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 5%;
+  margin-left: 48%;
+}
+#box6 .phong .text .phong2 .carousel-control-next {
+  width: 30px;
+  height: 30px;
+  margin-top: 25%;
+  margin-right: 40%;
+}
+#box6 .phong3 {
+  background-color: #272727;
+  width: 100%;
+  height: auto;
+}
+#box6 .phong3 .c1 {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong3 .c1 img {
+  width: 70%;
+  padding-top: 50px;
+  padding-left: 20%;
+}
+#box6 .phong3 .c1 p {
+  margin-bottom: 20px;
+  color: #bfbfbf;
+  padding-left: 20%;
+  font-size: 14px;
+}
+#box6 .phong3 .c2 {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong3 .c2 h3 {
+  color: #dddddd;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#box6 .phong3 .c2 i.fas {
+  width: 100%;
+  color: #7f7f7f;
+  margin-top: 15px;
+  font-size: 14px;
+  border-bottom: 1px solid #7f7f7f;
+  padding-bottom: 10px;
+}
+#box6 .phong3 .c3 {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong3 .c3 h3 {
+  color: #dddddd;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-left: 7%;
+}
+#box6 .phong3 .c3 .pt1 {
+  margin-top: 15px;
+  width: auto;
+  height: 70px;
+  margin-left: 4%;
+}
+#box6 .phong3 .c3 .pt1 img {
+  width: auto;
+  height: 100%;
+}
+#box6 .phong3 .c3 .pt2 {
+  width: 100%;
+  height: 70px;
+  margin-left: 4%;
+  margin-top: 20px;
+}
+#box6 .phong3 .c3 .pt2 img {
+  width: auto;
+  height: 100%;
+}
+#box6 .phong3 .c4 {
+  width: 100%;
+  height: 300px;
+}
+#box6 .phong3 .c4 h3 {
+  color: #dddddd;
+  font-size: 20px;
+  padding-top: 50px;
+}
+#box6 .phong3 .c4 p {
+  color: #dddddd;
+}
 #box7 {
   width: 100%;
 }
