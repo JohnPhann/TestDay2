@@ -7,6 +7,7 @@ body{
 }
 #box1{
 	width: 100%;
+
 	float: left;
 	height: auto;
 	// background: black;
@@ -202,6 +203,8 @@ body{
 				}
 			}
 		}
+
+
 	}
 #box2{
 	width: 100%;
@@ -845,7 +848,123 @@ body{
 		}
 	}
 #box5{
-	width: 100%;
+	.bgimg{
+		background-image: url(../img/bg-imgd.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+		.bg{
+			background: linear-gradient(rgba(113, 205, 242,.6),rgba(239, 85, 151,.7));
+			height: 842px;
+			padding: 10%;
+			.textcenter{
+				margin: 0 auto;
+				text-align: center; 
+				h1{
+					font-size: 70px;
+    				margin-bottom: 40px;
+    				color: white;
+    				font-family: "Playfair Display";
+    				@media screen and (max-width: 768px) {
+						font-size: 45px;
+						margin-top: 50px;
+    				}
+				}
+				p{
+					font-size: 20px;
+    				margin-bottom: 10px;
+    				color: white;
+    				font-family: "Playfair Display";
+				}
+			}
+		}
+	}
+	.meetout{
+		padding: 8% 15%;
+		.meetbox{
+			background: white;
+			text-align: center;
+			h2{
+				font-size: 40px;
+				margin-bottom: 10%;
+    			font-family: "Playfair Display";
+			}
+			.meet{
+				float: left;
+				font-family: "Playfair Display";
+				&:hover{
+					background: #e5e5e5;
+					transition: all 2s;
+				}
+				.imgmeet{
+					height: 134px;
+					img{
+						&:hover{
+							transform: scale(1.5);
+							transition: all 1s;
+						}
+						width: 134px;
+						height: 134px;
+						border-radius: 50%;
+						border: solid 2px #f273ac;
+						@media screen and (max-width: 780px) {
+							width: 100px;
+							height: 100px;
+						}
+					}
+				}
+				.meetname{
+					margin-top: 20%;
+					margin-bottom: 15%;
+					h6{
+						color: gray;
+					}
+				}
+				.meeticon{
+					margin: 0 auto;
+					margin-bottom: 10%;
+					a{
+						padding: 0px 2px;
+						color: black;
+						font-size: 15px;
+					}
+				}
+				button.btn-primary{
+					margin: 0 auto;
+					background: #f273ac;
+					border: none;
+				}
+			}
+		}
+		@media screen and (max-width: 768px) {
+
+			.meet{
+				padding: 0;
+				.imgmeet{
+						img{
+					width: 100px;
+					height: 100px;
+					}
+				}
+			}
+			
+
+			.meeticon{
+				padding-right: 20%;
+			
+				i.fab{
+					display: none;
+				}
+				i.fas{
+					display: none;
+				}
+			}	
+		}
+		@media screen and (max-width: 424px) {
+			.meet1{
+				display: none;
+			}		
+		}
+	}
 	}
 #box6{
 	width: 100%;
